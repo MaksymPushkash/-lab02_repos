@@ -12,16 +12,17 @@ using namespace std;
 int main() 
 {
     double alpha; 
-    double z1, z2; 
+    // double z1;
+    double z2; 
 
     cout << "Введіть значення α (в радіанах): ";
     cin >> alpha;
 
-    z1 = (1 - 2 * pow(sin(alpha), 2)) / (1 + sin(2 * alpha));
+    // z1 = (1 - 2 * pow(sin(alpha), 2)) / (1 + sin(2 * alpha));
 
-    // z2 = (1 - tan(alpha)) / (1 + tan(alpha));
+    z2 = (1 - tan(alpha)) / (1 + tan(alpha));
 
-    cout << "Значення z1: " << z1 << endl;
+    // cout << "Значення z1: " << z1 << endl;
     cout << "Значення z2: " << z2 << endl;
 
     return 0;
